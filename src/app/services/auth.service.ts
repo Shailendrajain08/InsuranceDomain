@@ -10,6 +10,7 @@ export class AuthService {
   constructor(private _http: HttpClient) { }
 
   apiUrl = 'http://localhost:3000/user';
+  roleUrl = 'http://localhost:3000/role'
 
   getAll(){
     return this._http.get(this.apiUrl);
@@ -35,4 +36,10 @@ export class AuthService {
   getUserRoll(){
     return sessionStorage.getItem('username')!==null?sessionStorage.getItem('userrole')?.toString():'';
   }
+
+  getAllRole(){
+    return this._http.get(this.roleUrl);
+  }
+
+
 }

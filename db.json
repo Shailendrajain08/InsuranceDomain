@@ -8,6 +8,91 @@
       "gender": "male",
       "role": "admin",
       "isActive": true
+    },
+    {
+      "id": "Djain",
+      "fullName": "Dharmendra Jain",
+      "password": "Djain0894@",
+      "email": "dhar@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "tarun",
+      "fullName": "Tarun Jain",
+      "password": "Sjain0894@",
+      "email": "shai@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "mohit",
+      "fullName": "Mohit Jain",
+      "password": "Sjain0894@",
+      "email": "shai@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "lokendra",
+      "fullName": "Lokendra Jain",
+      "password": "Ljain0894@",
+      "email": "loke@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Njain",
+      "fullName": "Narendra Jain",
+      "password": "Njain0894@",
+      "email": "narendra@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Kjain",
+      "fullName": "Kanti Jain",
+      "password": "Kjain0894@",
+      "email": "kanti@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Rjain",
+      "fullName": "Ruchi Jain",
+      "password": "Rjain0894@",
+      "email": "ruchi@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isActive": true
+    },
+    {
+      "id": "Aman",
+      "fullName": "Aman Jain",
+      "password": "Ajain0894@",
+      "email": "aman@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isActive": false
     }
+
+
+  ],
+  "role":[
+    {
+      "code":"customer",
+      "name":"customer"
+    },
+    {
+      "code":"agent",
+      "name":"agent"
+    }
+
   ]
 }
