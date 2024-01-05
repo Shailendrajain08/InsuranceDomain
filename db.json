@@ -15,8 +15,8 @@
       "password": "Djain0894@",
       "email": "dhar@gmail.com",
       "gender": "male",
-      "role": "",
-      "isActive": false
+      "role": "agent",
+      "isActive": true
     },
     {
       "id": "tarun",
@@ -24,8 +24,8 @@
       "password": "Sjain0894@",
       "email": "shai@gmail.com",
       "gender": "male",
-      "role": "",
-      "isActive": false
+      "role": "customer",
+      "isActive": true
     },
     {
       "id": "mohit",
@@ -33,8 +33,8 @@
       "password": "Sjain0894@",
       "email": "shai@gmail.com",
       "gender": "male",
-      "role": "",
-      "isActive": false
+      "role": "customer",
+      "isActive": true
     },
     {
       "id": "lokendra",
@@ -81,18 +81,15 @@
       "role": "",
       "isActive": false
     }
-
-
   ],
-  "role":[
+  "role": [
     {
-      "code":"customer",
-      "name":"customer"
+      "code": "customer",
+      "name": "customer"
     },
     {
-      "code":"agent",
-      "name":"agent"
+      "code": "agent",
+      "name": "agent"
     }
-
   ]
 }

@@ -301,7 +301,7 @@
     src="../assets/images.png"
   />
   <a routerLink="" *ngIf="isMenuRequired">HOME</a>
-  <a routerLink="/user" *ngIf="isMenuRequired">USER</a>
+  <a routerLink="/user" *ngIf="isMenuRequired && isAdminUser">USER</a>
     <div class="spacer"></div>
 
     <a routerLink="/login" style="margin-right: 2%;" *ngIf="isMenuRequired">LOGOUT</a>

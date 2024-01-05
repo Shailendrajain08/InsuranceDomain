@@ -48,20 +48,21 @@ export class UserListingComponent {
   }
 
   UpdateUser(id:any){
-    this.dialog.open(UpdatePopUpComponent,{
+    const popup = this.dialog.open(UpdatePopUpComponent,{
       enterAnimationDuration:'1000ms',
       exitAnimationDuration:'500ms',
       width:'50%',
       data:{
         usercode:id
       }
-
+    })
+    popup.afterClosed().subscribe(res=>{
+      this.loadUser()
 
     })
   }
 
   openDialog(){
-
   }
 
 }

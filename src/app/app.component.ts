@@ -1,5 +1,6 @@
 import { Component, DoCheck } from '@angular/core';
 import {Router } from '@angular/router';
+import { AuthService } from './services/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +9,10 @@ import {Router } from '@angular/router';
 })
 export class AppComponent implements DoCheck{
   title = 'insuranceDomain';
-  isMenuRequired = false
+  isMenuRequired = false;
+  isAdminUser = false;
 
-  constructor(private _router:Router){
+  constructor(private _router:Router, private _auth: AuthService){
 
   }
   ngDoCheck(): void {
@@ -19,6 +21,11 @@ if(currentUrl == '/login' || currentUrl == '/register'){
   this.isMenuRequired = false;
 }else{
   this.isMenuRequired = true
+}
+if(this._auth.getUserRoll()==='admin'){
+  this.isAdminUser = true;
+}else{
+  this.isAdminUser = false;
 }
   }
 }
