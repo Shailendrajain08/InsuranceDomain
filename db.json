@@ -1,0 +1,13 @@
+{
+  "user": [
+    {
+      "id": "Sjain",
+      "fullName": "Shailendra Jain",
+      "password": "Sjain0894@",
+      "email": "shai@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isActive": true
+    }
+  ]
+}

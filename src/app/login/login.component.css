@@ -1,0 +1,17 @@
+.main{
+  width: 100%;
+  text-align: center;
+}
+
+
+mat-form-field{
+  width: 95% !important;
+}
+
+.radio1{
+  margin-right: 3%;
+}
+
+.radio2{
+  margin-right: 3%;
+}
